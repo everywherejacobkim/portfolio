@@ -6,5 +6,6 @@ About  = () => {
     <div>
         About Page Component
     </div>
+  )}
 
 export default About
