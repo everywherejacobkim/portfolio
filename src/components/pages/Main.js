@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import HomeButton from '../HomeButton';
 
 
 const MainContainer = styled.div`
@@ -13,13 +14,20 @@ const MainContainer = styled.div`
         font-family: 'Karla', sans-serif;
         font-weight: 600;
     }
+`
+
+const Container = styled.div`
+    padding: 2rem;
 
 
 `
+
 const Main = () => {
   return (
     <MainContainer>
-        <h1>Hello World</h1>
+        <Container>
+            <HomeButton />
+        </Container>
     </MainContainer>
   )
 }
