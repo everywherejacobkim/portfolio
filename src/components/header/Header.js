@@ -9,20 +9,21 @@ import './header.css';
 
 const Header = () => {
   return (
-    <header>
+    <header id="header">
       <div className="container header__container">
-        <h4>Hello I'm</h4>
+        <h5>Web & Mobile Developer</h5>
         <h1>Jacob Namhyung Kim</h1>
-        <h4 className="text-light">Frontend Developer</h4>
+        <h5 className="text-light">Javascript&nbsp; || React JS ||&nbsp; React Native</h5>
         <Resume />
 
         <div className="me"> 
           <img src={Me} alt="portrait"></img>
-          <BsKeyboardFill className="keyboard" size="5rem"/>
-          <BsFillMouse2Fill className="mouse" size="3rem" />
-          <FaReact className="reactLogo" size="3rem" />
-          <SiJavascript className="jsLogo" size="2rem" />
-
+          <div className="meIcons">
+            <BsKeyboardFill className="keyboard" size="5rem"/>
+            <BsFillMouse2Fill className="mouse" size="3rem" />
+            <FaReact className="reactLogo" size="3rem" />
+            <SiJavascript className="jsLogo" size="2rem" />
+          </div>
         </div>
 
         <a href="#contact" className="scroll__down">Scroll Down</a>

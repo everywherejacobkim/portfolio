@@ -3,9 +3,9 @@ import React from 'react'
 const 
 About  = () => {
   return (
-    <div>
-        About Page Component
-    </div>
+    <section id="about">
+      About
+    </section>
   )}
 
 export default About

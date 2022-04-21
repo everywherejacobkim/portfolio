@@ -54,6 +54,7 @@ h1,h2,h3,h4,h5,h6 {
 
 section {
   margin-top: 8rem;
+  height: 100vh;
 }
 
 section > h2, section > h5 {
@@ -108,7 +109,7 @@ a:hover {
 }
 
 
-/*--------------------- Media Queries(Web) ---------------------------*/
+/*--------------------- Media Queries(Tablet) ---------------------------*/
 @media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
@@ -120,7 +121,7 @@ a:hover {
 }
 
 /*--------------------- Media Queries(Mobile) -------------------------*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   .container {
     width: var(--container-width-sm);
   }
