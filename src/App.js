@@ -1,28 +1,29 @@
-import { Route, Routes, BrowserRouter } from 'react-router-dom';
-import GlobalStyle from './globalStyles';
-import './App.css';
+import React from 'react'
 
 // Components
-import Main from './components/pages/Main';
-import About from './components/pages/About';
-import Projects from './components/pages/Projects';
-import Skills from './components/pages/Skills';
-import Contact from './components/pages/Contact';
+import Header from './components/header/Header';
+import Nav from './components/nav/Nav'
+import Main from './components/Main';
+import About from './components/about/About';
+import Projects from './components/projects/Projects';
+import Skills from './components/skills/Skills';
+import Testimonial from './components/testimoial/Testimonial';
+import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 
 
 function App() {
   return (
     <div className="App">
-        <GlobalStyle />
-          <BrowserRouter>
-            <Routes>
-                <Route exact path="/" element={<Main />} />
-                <Route exact path="/about" element={<About />} />
-                <Route exact path="/skills" element={<Skills />} />
-                <Route exact path="/projects" element={<Projects />} />
-                <Route exact path="/contact" element={<Contact />} />
-            </Routes>
-          </BrowserRouter>
+          <Header />
+          <Nav />
+          <About />
+          <Skills />
+          <Projects />
+          <Testimonial />
+          <Contact />
+          <Footer />
+
     </div>
   );
 }
