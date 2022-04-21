@@ -1,0 +1,120 @@
+.about__container {
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+
+/*--------------------- Left Side Image ---------------------------*/
+.about__me {
+    width: 90%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    display: grid;
+    place-items: center;
+    margin-top: 2.7rem;
+}
+
+.about__me img {
+    height: 100%;
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(-10deg);
+}
+
+.about__me img:hover {
+    transform: rotate(0deg);
+}
+
+/*--------------------- Right Side Cards ---------------------------*/
+.about__content {
+    margin-top: 2rem;
+}
+
+.about__cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+}
+
+.about__card {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+
+.about__card:hover {
+    background: transparent;
+    transition: var(--transition);
+    border-color: var(--color-bg-variant);
+}
+
+article h5 {
+    color: var(--color-primary);
+}
+
+.about__icon {
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: .5rem;
+}
+
+.about__card h5 {
+    font-size: .95rem;
+}
+
+.about__card p {
+    font-size: .7rem;
+    padding-top: .7rem;
+}
+
+.about__introduction {
+    margin: 0 1.6rem;
+    transform: translateX(1rem);
+    color: var(--color-light);
+}
+
+.quoteLeft {
+    transform: translateX(.3rem);
+    margin-top: 3rem;
+}
+
+.quoteRight {
+    width: 100%;
+    text-align: right;
+}
+
+
+/*--------------------- Media Queries(Tablet) ---------------------------*/
+@media screen and (max-width: 1024px) {
+    .about__container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .about__me {
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+
+}
+
+    /*--------------------- Media Queries(Mobile) -------------------------*/
+    @media screen and (max-width: 480px) {
+    .about__me {
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+
+    .about__cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .about__content {
+        text-align: center;
+    }
+}
