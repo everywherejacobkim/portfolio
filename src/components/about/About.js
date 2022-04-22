@@ -22,14 +22,10 @@ About  = () => {
             <article className="about__card">
               <FaUserGraduate className="about__icon"/>
               <h5>Education</h5>
-              <p>2 Years Post Degree Diploma Web and Mobile Design & Development</p>
+              <p>2 Years Post Degree Diploma Web & Mobile App Design & Development<br/>
+                (Developer stream)
+              </p>
               <p>4 Years Bachelor's Degree Education Technology</p>
-            </article>
-
-            <article className="about__card">
-              <GoProject className="about__icon"/>
-              <h5>Projects</h5>
-              <p>10+ completed projects</p>
             </article>
 
             <article className="about__card">
@@ -37,6 +33,12 @@ About  = () => {
               <h5>Experience</h5>
               <p>5+ Years program coordinator & administrative assistant</p>
               <p>2+ Years practical projects & capstone</p>
+            </article>
+
+            <article className="about__card projects">
+              <GoProject className="about__icon"/>
+              <h5>Projects</h5>
+              <p>10+ completed projects</p>
             </article>
           </div>
 

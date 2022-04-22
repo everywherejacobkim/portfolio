@@ -116,5 +116,34 @@ article h5 {
 
     .about__content {
         text-align: center;
+        margin-top: 0.5rem; 
+    }
+
+    .about__icon {
+        margin-bottom: -0.5rem; 
+    }
+
+    .about__card {
+        padding: 1rem 0.5rem;
+    }
+
+    .about__card p {
+        padding-top: -1.2rem; 
+    }
+
+    .quoteLeft {
+        transform: translateX(-10rem); 
+    }
+
+    .about__introduction {
+        transform: translateX(-0.1rem);
+    }
+
+    .projects {
+        transform: translateX(5.8rem);
+    }
+
+    .projects p{
+        padding-bottom: 1rem;
     }
 }
