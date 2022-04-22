@@ -10,7 +10,7 @@
 
 :root {
   --color-bg: #1f1f38;
-  --color-bg-variant: #7670808e;
+  --color-bg-variant: #5b4c637c;
   --color-primary: #b295ffd8;
   --color-primary-variant: #005B42 0.4;
   --color-white: #FCF8FF;
@@ -95,7 +95,7 @@ a:hover {
 
 .btn:hover {
   background-color: var(--color-white);
-  color: var(--color-bg);
+  color: var(--color-bg) !important;
   border-color: transparent;
 }
 

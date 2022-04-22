@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
+    margin-top: 5rem;
 }
 
 /*--------------------- Left Side Image ---------------------------*/
@@ -28,7 +29,7 @@
 
 /*--------------------- Right Side Cards ---------------------------*/
 .about__content {
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 .about__cards {
@@ -41,7 +42,7 @@
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 1.7rem 1rem;
     text-align: center;
     text-overflow: ellipsis;
 }
@@ -63,18 +64,20 @@ article h5 {
 }
 
 .about__card h5 {
-    font-size: .95rem;
+    font-size: 1.3rem;
+    transform: translateY(-0.5rem);
 }
 
 .about__card p {
-    font-size: .7rem;
-    padding-top: .7rem;
+    font-size: .9rem;
+    padding-top: .3rem;
 }
 
 .about__introduction {
     margin: 0 1.6rem;
     transform: translateX(1rem);
     color: var(--color-light);
+    font-size: 1.5rem;
 }
 
 .quoteLeft {
@@ -104,6 +107,10 @@ article h5 {
 
     /*--------------------- Media Queries(Mobile) -------------------------*/
     @media screen and (max-width: 480px) {
+    .about__container {
+        margin-top: 2rem;
+    }
+
     .about__me {
         width: 65%;
         margin: 0 auto 3rem;
@@ -127,8 +134,14 @@ article h5 {
         padding: 1rem 0.5rem;
     }
 
+    .about__card h5 {
+        font-size: 0.95rem;
+        transform: translateY(0.3rem);
+    }
+
     .about__card p {
         padding-top: -1.2rem; 
+        font-size: .7rem;
     }
 
     .quoteLeft {
@@ -137,6 +150,7 @@ article h5 {
 
     .about__introduction {
         transform: translateX(-0.1rem);
+        font-size: 1rem;
     }
 
     .projects {

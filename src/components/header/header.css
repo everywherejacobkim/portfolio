@@ -27,21 +27,25 @@ header {
     gap: .7rem;
     position: absolute;
     left: 0;
-    top: 1.5rem;
+    top: -.5rem;
 }
 
 .header__socials::before {
     content: "";
     width: 1px;
-    height: 2rem;
+    height: 4rem;
     background: var(--color-primary);
 }
 
 .header__socials::after {
     content: "";
     width: 1px;
-    height: 2rem;
+    height: 4rem;
     background: var(--color-primary);
+}
+
+.social {
+    font-size: 1.3rem;
 }
 
 

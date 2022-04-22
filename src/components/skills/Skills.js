@@ -1,9 +1,11 @@
 import React from 'react'
+import './skills.css';
 
 const Skills = () => {
   return (
     <section id="skills">
-      Skills
+      <h5>What Slills I have</h5>
+      <h2>My Experience</h2>
     </section>
   )
 }

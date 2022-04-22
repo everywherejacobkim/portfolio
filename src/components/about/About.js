@@ -21,7 +21,7 @@ About  = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaUserGraduate className="about__icon"/>
-              <h5>Education</h5>
+                <h5>Education</h5>
               <p>2 Years Post Degree Diploma Web & Mobile App Design & Development<br/>
                 (Developer stream)
               </p>
