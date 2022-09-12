@@ -6,12 +6,22 @@ import {BsKeyboardFill, BsFillMouse2Fill} from 'react-icons/bs';
 import {FaReact} from 'react-icons/fa';
 import {SiJavascript} from 'react-icons/si';
 import './header.css';
+import { TypeAnimation } from 'react-type-animation';
 
 const Header = () => {
+
+  const typedText = ["Front-end Dev",1000,"React Developer",1500, "React Native Developer",1000];
+
   return (
     <header id="header">
       <div className="container header__container">
-        <h5>Front-end Web & Mobile Developer</h5>
+      <TypeAnimation
+        sequence={typedText}
+        style={{ fontSize: "2em" }}
+        wrapper="h2"
+        repeat={Infinity}
+      />
+        {/* <h5>Front-end Web & Mobile Developer</h5> */}
         <h1>Jacob Namhyung Kim</h1>
         <h5 className="text-light">Javascript&nbsp; || React JS ||&nbsp; React Native</h5>
         <Resume />

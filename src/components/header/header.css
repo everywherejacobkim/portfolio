@@ -1,7 +1,6 @@
 header {
     height: 125vh;
     padding-top: 5rem;
-    overflow: hidden;
 }
 
 .header__container {
@@ -88,6 +87,9 @@ header {
 
 .me img{
     border-radius: 0 0 15rem 15rem;
+    -webkit-filter:  brightness(100%) contrast(120%) grayscale(100%) hue-rotate(0deg) invert(0%) opacity(100%) saturate(100%) sepia(0%);
+    filter:  brightness(100%) contrast(120%) grayscale(100%) hue-rotate(0deg) invert(0%) opacity(100%) saturate(100%) sepia(0%);
+    mix-blend-mode: multiply;
 }
 
 /*--------------------- Scroll Down ----------------------------*/

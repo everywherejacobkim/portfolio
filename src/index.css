@@ -9,12 +9,13 @@
 }
 
 :root {
-  --color-bg: #1f1f38;
-  --color-bg-variant: #5b4c637c;
-  --color-primary: #b295ffd8;
-  --color-primary-variant: #005B42 0.4;
+  --color-bg: #1d3b67;
+  --color-bg-variant: #acc6df;
+  --color-primary: #95bcffd8;
+  --color-primary-variant: #162b46 0.4;
   --color-white: #FCF8FF;
-  --color-light: #FEFEDF 0.8;
+  --color-black: #001233;
+  --color-light: #ceefff 0.8;
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -35,11 +36,15 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
+  background: var(--color-white);
+  color: var(--color-bg);
+  line-height: 1.7;
+}
+
+#header {
   background: var(--color-bg);
   color: var(--color-white);
-  line-height: 1.7;
   background-image: url(./img/texture3.png);
-
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -53,17 +58,16 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 section {
-  margin-top: 5rem;
-  height: 170vh;
+  margin-top: 3rem;
+  height: 135vh;
 }
 
 section > h2, section > h5 {
   text-align: center;
-  color: var(--color-light);
 }
 
 section > h2 {
-  color: var(--color-primary);
+  color: #0466c8;
   margin-bottom: 3rem;
 }
 

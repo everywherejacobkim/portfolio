@@ -1,3 +1,7 @@
+#about {
+    margin-top: 10%;
+}
+
 .about__container {
     display: grid;
     grid-template-columns: 35% 50%;
@@ -21,6 +25,10 @@
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(-10deg);
+
+    /* -webkit-filter:  brightness(100%) contrast(120%) grayscale(100%) hue-rotate(0deg) invert(0%) opacity(100%) saturate(100%) sepia(0%);
+            filter:  brightness(100%) contrast(120%) grayscale(100%) hue-rotate(0deg) invert(0%) opacity(100%) saturate(100%) sepia(0%);
+    mix-blend-mode: multiply; */
 }
 
 .about__me img:hover {
@@ -54,11 +62,11 @@
 }
 
 article h5 {
-    color: var(--color-primary);
+    color: var(--color-primary-variant);
 }
 
 .about__icon {
-    color: var(--color-primary);
+    color: var(--color-primary-variant);
     font-size: 1.4rem;
     margin-bottom: .5rem;
 }
@@ -71,6 +79,7 @@ article h5 {
 .about__card p {
     font-size: .9rem;
     padding-top: .3rem;
+    color: var(--color-black);
 }
 
 .about__introduction {
@@ -88,6 +97,22 @@ article h5 {
 .quoteRight {
     width: 100%;
     text-align: right;
+}
+
+.edu__description_1{
+    margin-bottom: 8%;
+}
+
+.edu__description_2{
+    margin-top: 8%;
+}
+
+.exp__description_1{
+    margin-bottom: 8%;
+}
+
+.exp__description_2{
+    margin-top: 8%;
 }
 
 

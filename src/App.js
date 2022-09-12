@@ -10,6 +10,7 @@ import Skills from './components/skills/Skills';
 import Testimonial from './components/testimoial/Testimonial';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
+import Wave from './components/wave/Wave';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <div className="App">
           <Header />
           <Nav />
+          <Wave />
           <About />
           <Skills />
           <Projects />

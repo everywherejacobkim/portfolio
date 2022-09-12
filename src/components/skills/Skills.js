@@ -5,7 +5,7 @@ import './skills.css';
 const Skills = () => {
   return (
     <section id="skills">
-      <h5>What Slills I have</h5>
+      <h5>What Skills I have</h5>
       <h2>My Experience</h2>
 
       <div className="container skills__container">
@@ -79,7 +79,7 @@ const Skills = () => {
             <article className="skills__right__detail">
               <MdGppGood className="skills__icon"/>
               <div>
-                <h3 className="skills__title">Kotlin</h3>
+                <h3 className="skills__title">Swift</h3>
                 <h5 className="skills__level">Basic</h5>
               </div>
             </article>

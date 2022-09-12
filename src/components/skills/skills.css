@@ -5,13 +5,13 @@
 }
 
 .skills__icon {
-    color: var(--color-primary);
+    color: #2660a4;
     font-size: 1.4rem;
     transform: translateY(.3rem);
 }
 
 .skills__level {
-    color: rgba(184, 130, 247, 0.918);
+    color: #fffceb;
 }
 
 .skills__left, .skills__right {
@@ -22,16 +22,10 @@
     
 }
 
-.skills__left:hover, .skills__right:hover {
-    background: transparent;
-    transition: var(--transition);
-    border-color: var(--color-bg-variant);
-    cursor: default;
-}
-
 .skills__left__title, .skills__right__title {
     text-align: center;
     margin-bottom: 2rem;
+    font-size: 15pt;
 }
 
 .skills__left__box, .skills__right__box {
