@@ -1,7 +1,8 @@
 .skills__container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 55% 45%;
     gap: 2rem;
+    transform: translateX(-2%);
 }
 
 .skills__icon {
@@ -16,10 +17,9 @@
 
 .skills__left, .skills__right {
     background: var(--color-bg-variant);
-    padding: 2.4rem 5rem;
+    padding: 2.4rem 1.8rem;
     border: 1px solid transparent;
     border-radius: 2rem;
-    
 }
 
 .skills__left__title, .skills__right__title {
@@ -28,16 +28,28 @@
     font-size: 15pt;
 }
 
-.skills__left__box, .skills__right__box {
+.skills__left__box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: .1rem 2rem;
+}
+
+.skills__right__box {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: .1rem 2.5rem;
+    grid-template-rows: 1fr 1fr;
+    gap: .1rem 2rem;
+    padding-left: .8rem;
 }
 
 .skills__left__detail, .skills__right__detail {
     display: flex;
     gap: 1rem;
     margin-bottom: 2rem;
-    transform: translate(.5rem, .7rem);
+    transform: translate(1rem, .7rem);
+}
+
+.react_native {
+    transform: translate(65%, 20%);
 }
 

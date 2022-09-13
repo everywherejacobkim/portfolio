@@ -12,7 +12,20 @@ const Skills = () => {
         <div className="skills__left"> 
           <h3 className="skills__left__title">Web Development</h3>
           <div className="skills__left__box">
-
+            <article className="skills__left__detail">
+              <MdGppGood className="skills__icon"/>
+              <div>
+                <h3 className="skills__title">React JS</h3>
+                <h5 className="skills__level">Experienced +</h5>
+              </div>  
+            </article>
+            <article className="skills__left__detail">
+              <MdGppGood className="skills__icon"/>
+              <div>
+                <h3 className="skills__title">TypeScript</h3>
+                <h5 className="skills__level">Experienced</h5>
+              </div>
+            </article>
             <article className="skills__left__detail">
               <MdGppGood className="skills__icon"/>
               <div>
@@ -24,37 +37,23 @@ const Skills = () => {
             <article className="skills__left__detail">
               <MdGppGood className="skills__icon"/>
               <div>
-                <h3 className="skills__title">Javascript</h3>
-                <h5 className="skills__level">Experienced</h5>
-              </div>
-            </article>
-            <article className="skills__left__detail">
-              <MdGppGood className="skills__icon"/>
-              <div>
-                <h3 className="skills__title">React JS</h3>
-                <h5 className="skills__level">Experienced +</h5>
-              </div>  
-            </article>
-            <article className="skills__left__detail">
-              <MdGppGood className="skills__icon"/>
-              <div>
-                <h3 className="skills__title">Tailwind CSS</h3>
-                <h5 className="skills__level">Experienced</h5>
-              </div>
-            </article>
-            <article className="skills__left__detail">
-              <MdGppGood className="skills__icon"/>
-              <div>
                 <h3 className="skills__title">Node JS</h3>
-                <h5 className="skills__level">Intermediate</h5>
+                <h5 className="skills__level">Experienced</h5>
               </div>
             </article>
             <article className="skills__left__detail">
               <MdGppGood className="skills__icon"/>
               <div>
-                <h3 className="skills__title">MongoDB</h3>
-                <h5 className="skills__level">Experienced</h5>
+                <h3 className="skills__title">GraphQL</h3>
+                <h5 className="skills__level">Intermediate</h5>
               </div>  
+            </article>
+            <article className="skills__left__detail">
+              <MdGppGood className="skills__icon"/>
+              <div>
+                <h3 className="skills__title">Tailwind</h3>
+                <h5 className="skills__level">Experienced</h5>
+              </div>
             </article>
           </div>
         </div>
@@ -62,46 +61,26 @@ const Skills = () => {
         <div className="skills__right"> 
           <h3 className="skills__right__title">Mobile App Development</h3>
           <div className="skills__right__box">
-            <article className="skills__right__detail">
+            <article className="skills__right__detail react_native">
               <MdGppGood className="skills__icon"/>
               <div>
                 <h3 className="skills__title">React Native</h3>
                 <h5 className="skills__level">Experienced +</h5>
               </div>
             </article>
+            <br />
             <article className="skills__right__detail">
               <MdGppGood className="skills__icon"/>
               <div>
-                <h3 className="skills__title">Java</h3>
+                <h3 className="skills__title">Java Android</h3>
                 <h5 className="skills__level">Intermediate</h5>
               </div>
             </article>
             <article className="skills__right__detail">
               <MdGppGood className="skills__icon"/>
               <div>
-                <h3 className="skills__title">Swift</h3>
-                <h5 className="skills__level">Basic</h5>
-              </div>
-            </article>
-            <article className="skills__right__detail">
-              <MdGppGood className="skills__icon"/>
-              <div>
-                <h3 className="skills__title">Objective C</h3>
-                <h5 className="skills__level">Basic</h5>
-              </div>
-            </article>
-            <article className="skills__right__detail">
-              <MdGppGood className="skills__icon"/>
-              <div>
-                <h3 className="skills__title">Swift</h3>
-                <h5 className="skills__level">Basic</h5>
-              </div>
-            </article>
-            <article className="skills__right__detail">
-              <MdGppGood className="skills__icon"/>
-              <div>
-                <h3 className="skills__title">Ionic</h3>
-                <h5 className="skills__level">Basic</h5>
+                <h3 className="skills__title">Swift iOS</h3>
+                <h5 className="skills__level">Intermediate</h5>
               </div>
             </article>
           </div>

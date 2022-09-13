@@ -23,7 +23,7 @@ const Header = () => {
       />
         {/* <h5>Front-end Web & Mobile Developer</h5> */}
         <h1>Jacob Namhyung Kim</h1>
-        <h5 className="text-light">Javascript&nbsp; || React JS ||&nbsp; React Native</h5>
+        <h5 className="text-light">TypeScript&nbsp; || React JS ||&nbsp; React Native</h5>
         <Resume />
 
         <div className="me"> 
