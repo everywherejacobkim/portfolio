@@ -10,7 +10,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Header = () => {
 
-  const typedText = ["Front-end Dev",1000,"React Developer",1500, "React Native Developer",1000];
+  const typedText = ["Front-end Dev",1000, "React Developer",1500, "React Native Developer",1000];
 
   return (
     <header id="header">
@@ -36,7 +36,7 @@ const Header = () => {
           </div>
         </div>
 
-        <a href="#contact" className="scroll__down">Scroll Down</a>
+        {/* <a href="#contact" className="scroll__down">Scroll Down</a> */}
         <Socials />
       </div>
     </header>

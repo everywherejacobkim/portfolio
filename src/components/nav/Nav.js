@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import './nav.css';
 import {AiOutlineHome, AiOutlineUser, AiTwotoneThunderbolt, AiOutlineProject} from 'react-icons/ai';
 import {BiMessageSquareDetail} from 'react-icons/bi';
