@@ -7,7 +7,7 @@ import { CardActionArea, CardActions } from '@mui/material';
 import './projects.css';
 
 
-const Projects = () => {
+const Projects = ({ projectRef, projectIsVisible }) => {
 
   const projects = [
     {
@@ -27,43 +27,47 @@ const Projects = () => {
   ]
 
   return (
-    <section id="projects">
+    <section id="projects" ref={projectRef}>
       <h4>Explore</h4>
       <h2>Web & Mobile Projects</h2>
-      <div className="container projects__container">
-        <div className="project__card">
-          {projects.map((project) => (
-            <a
-              href= {project.url}
-              target="_blank"
-              rel="noreferrer">
-              <Card>
-              <CardActionArea>
-                <CardMedia
-                  component="img"
-                  height="140"
-                  image= {project.image}
-                  alt="my projects"
-                />
-                <CardContent>
-                  <Typography gutterBottom variant="h5" component="div">
-                    {project.title}
-                  </Typography>
-                  <Typography gutterBottom variant="body1" component="div" color="#013a63">
-                    {project.stack}
-                  </Typography>
-                  <Typography variant="body2" color="text.secondary">
-                    {project.desc}
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-              <CardActions>
-              </CardActions>
-              </Card>
-            </a>
-          ))}
+      <div className={projectIsVisible ? "animateContainer" : ''}>
+        <div className="container projects__container">
+          <div className="project__card">
+            {projects.map((project) => (
+              <a
+                href= {project.url}
+                target="_blank"
+                rel="noreferrer">
+                <Card>
+                <CardActionArea>
+                  <CardMedia
+                    component="img"
+                    height="140"
+                    image= {project.image}
+                    alt="my projects"
+                  />
+                  <CardContent className='content-wrapper'>
+                    <Typography gutterBottom variant="h5" component="div">
+                      {project.title}
+                    </Typography>
+                    <Typography gutterBottom variant="body1" component="div" color="#013a63">
+                      {project.stack}
+                    </Typography>
+                      <Typography variant="body2" color="text.secondary">
+                        <div className='desc-wrapper'>
+                          {project.desc}
+                        </div>
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
+                <CardActions>
+                </CardActions>
+                </Card>
+              </a>
+            ))}
+          </div>
+          </div>
         </div>
-      </div>
     </section>
   )
 }

@@ -11,10 +11,12 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import BgOne from './components/parallax/BgOne';
 import TitleBox from './components/parallax/TitleBox';
+import BgTwo from './components/parallax/BgTwo';
 
 
 function App() {
-  const { ref: myRef, inView: myElementIsVisible } = useInView();
+  const { ref: skillRef, inView: skillIsVisible } = useInView();
+  const { ref: projectRef, inView: projectIsVisible } = useInView();
   
   // const myRef = useRef();
   // const [visibleElement, setVisibleElement] = useState();
@@ -35,8 +37,9 @@ function App() {
           <Nav />
           <TitleBox />
           <BgOne />
-          <Skills myRef={myRef} myElementIsVisible={myElementIsVisible}/>
-          <Projects />
+          <Skills skillRef={skillRef} skillIsVisible={skillIsVisible} />
+          <BgTwo />
+          <Projects projectRef={projectRef} projectIsVisible={projectIsVisible}/>
           <Testimonial />
           <Contact />
           <Footer />
