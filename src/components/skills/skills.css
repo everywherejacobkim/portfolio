@@ -20,6 +20,7 @@
     padding: 2.4rem 1.8rem;
     border: 1px solid transparent;
     border-radius: 2rem;
+    overflow: auto;
 }
 
 .skills__left__title, .skills__right__title {
@@ -52,4 +53,35 @@
 .react_native {
     transform: translate(65%, 20%);
 }
+
+/* animation */
+.animateBox_left {
+    animation-duration: 2s;
+    animation-name: animate-box-left;
+}
+
+.animateBox_right {
+    animation-duration: 2s;
+    animation-name: animate-box-right;
+}
+
+@keyframes animate-box-left {
+    0% {
+        transform: scale(1) translate3d(-100vw, 0vh, 0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes animate-box-right {
+    0% {
+        transform: scale(1) translate3d(100vw, 0vh, 0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
 

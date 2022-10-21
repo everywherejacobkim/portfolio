@@ -1,0 +1,25 @@
+.image {
+    position: relative;
+    height: 200vh;
+}
+
+.parallaxContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.title-box {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+}
+
+.title-box h2 {
+    color: #0466c8;
+    font-size: 1.8rem;
+}

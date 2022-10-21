@@ -3,7 +3,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { Button, CardActionArea, CardActions } from '@mui/material';
+import { CardActionArea, CardActions } from '@mui/material';
 import './projects.css';
 
 
@@ -28,7 +28,7 @@ const Projects = () => {
 
   return (
     <section id="projects">
-      <h5>Explore</h5>
+      <h4>Explore</h4>
       <h2>Web & Mobile Projects</h2>
       <div className="container projects__container">
         <div className="project__card">

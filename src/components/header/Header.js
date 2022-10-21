@@ -17,13 +17,13 @@ const Header = () => {
       <div className="container header__container">
       <TypeAnimation
         sequence={typedText}
-        style={{ fontSize: "2em" }}
+        style={{ fontSize: "1.8em" }}
         wrapper="h2"
         repeat={Infinity}
       />
         {/* <h5>Front-end Web & Mobile Developer</h5> */}
         <h1>Jacob Namhyung Kim</h1>
-        <h5 className="text-light">TypeScript&nbsp; || React JS ||&nbsp; React Native</h5>
+        <h5 className="text-light">JavaScript&nbsp; || React JS ||&nbsp; React Native</h5>
         <Resume />
 
         <div className="me"> 

@@ -63,13 +63,14 @@ section {
   margin-left: 6rem;
 }
 
-section > h2, section > h5 {
+section > h2, section > h4 {
   text-align: center;
 }
 
 section > h2 {
   color: #0466c8;
   margin-bottom: 3rem;
+  font-size: 1.8rem;
 }
 
 img {

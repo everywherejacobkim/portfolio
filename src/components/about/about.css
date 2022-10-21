@@ -4,13 +4,14 @@
 
 .about__container {
     display: grid;
-    grid-template-columns: 35% 50%;
+    grid-template-columns: 60%;
     gap: 15%;
     margin-top: 5rem;
+    transform: translateX(40%) translateY(20%)
 }
 
 /*--------------------- Left Side Image ---------------------------*/
-.about__me {
+/* .about__me {
     width: 90%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
@@ -25,15 +26,11 @@
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(-10deg);
-
-    /* -webkit-filter:  brightness(100%) contrast(120%) grayscale(100%) hue-rotate(0deg) invert(0%) opacity(100%) saturate(100%) sepia(0%);
-            filter:  brightness(100%) contrast(120%) grayscale(100%) hue-rotate(0deg) invert(0%) opacity(100%) saturate(100%) sepia(0%);
-    mix-blend-mode: multiply; */
 }
 
 .about__me img:hover {
     transform: rotate(0deg);
-}
+} */
 
 /*--------------------- Right Side Cards ---------------------------*/
 .about__content {
@@ -59,6 +56,8 @@
     background: transparent;
     transition: var(--transition);
     border-color: var(--color-bg-variant);
+    color: #8ecae6;
+    transform: scale(1.05, 1.05);
 }
 
 article h5 {
@@ -72,21 +71,30 @@ article h5 {
 }
 
 .about__card h5 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     transform: translateY(-0.5rem);
 }
 
 .about__card p {
-    font-size: .9rem;
+    font-size: 1rem;
     padding-top: .3rem;
     color: var(--color-black);
 }
 
+.about__card p:hover {
+    color: aliceblue;
+    cursor: pointer;
+}
+
 .about__introduction {
-    margin: 0 1.6rem;
+    margin: 0 1.7rem;
     transform: translateX(1rem);
     color: var(--color-light);
     font-size: 1.5rem;
+}
+
+.quote-wrapper {
+    margin-top: 20%;
 }
 
 .quoteLeft {

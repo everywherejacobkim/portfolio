@@ -2,14 +2,14 @@ import React from 'react';
 import {MdGppGood} from 'react-icons/md';
 import './skills.css';
 
-const Skills = () => {
+const Skills = ({ myRef, myElementIsVisible }) => {
   return (
-    <section id="skills">
-      <h5>What Skills I have</h5>
+    <section id="skills" ref={myRef}>
+      <h4>What Skills I have</h4>
       <h2>My Experience</h2>
 
       <div className="container skills__container">
-        <div className="skills__left"> 
+        <div className={myElementIsVisible ? "skills__left animateBox_left" : "skills__left"}> 
           <h3 className="skills__left__title">Web Development</h3>
           <div className="skills__left__box">
             <article className="skills__left__detail">
@@ -58,7 +58,7 @@ const Skills = () => {
           </div>
         </div>
         
-        <div className="skills__right"> 
+        <div className={myElementIsVisible ? "skills__right animateBox_right" : "skills__right"}> 
           <h3 className="skills__right__title">Mobile App Development</h3>
           <div className="skills__right__box">
             <article className="skills__right__detail react_native">
