@@ -23,11 +23,11 @@ const Header = () => {
       />
         {/* <h5>Front-end Web & Mobile Developer</h5> */}
         <h1>Jacob Namhyung Kim</h1>
-        <h5 className="text-light">JavaScript&nbsp; || React JS ||&nbsp; React Native</h5>
+        <h5 className="text-light">TypeScript&nbsp; || React JS ||&nbsp; React Native</h5>
         <Resume />
 
         <div className="me"> 
-          <img src={Me} alt="portrait"></img>
+          <img src={Me} alt="portrait" />
           <div className="meIcons">
             <BsKeyboardFill className="keyboard" size="5rem"/>
             <BsFillMouse2Fill className="mouse" size="3rem" />

@@ -20,7 +20,7 @@
 }
 
 .skills__left, .skills__right {
-    background: var(--color-bg-variant);
+    background: var(--color-bg-variant) !important;
     padding: 2.4rem 1.8rem;
     border: 1px solid transparent;
     border-radius: 2rem;
@@ -32,6 +32,9 @@
     text-align: center;
     margin-bottom: 2rem;
     font-size: 16pt;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    color: #003459;
 }
 
 .skills__left__box {

@@ -38,7 +38,7 @@ const Projects = ({ projectRef, projectIsVisible }) => {
                 href= {project.url}
                 target="_blank"
                 rel="noreferrer">
-                <Card>
+                <Card elevation={5}>
                 <CardActionArea>
                   <CardMedia
                     component="img"

@@ -1,0 +1,24 @@
+.footer-wrapper {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.footer-wrapper .social {
+    width: fit-content;
+    margin: -.5em .5em;
+    font-size: 18pt;
+    transform: translateX(350%);
+    color: #3e92cc;
+}
+
+.copy-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1em auto;
+    width: fit-content;
+}
+
+.copy-wrapper p {
+    margin-left: .2rem;
+}

@@ -1,3 +1,4 @@
+import { Paper } from '@mui/material';
 import React from 'react';
 import {MdGppGood} from 'react-icons/md';
 import './skills.css';
@@ -9,7 +10,7 @@ const Skills = ({ skillRef, skillIsVisible }) => {
       <h2>My Experience</h2>
 
       <div className="container skills__container">
-        <div className={skillIsVisible ? "skills__left animateBox_left" : "skills__left"}> 
+        <Paper elevation={5} className={skillIsVisible ? "skills__left animateBox_left" : "skills__left"}> 
           <h3 className="skills__left__title">Web Development</h3>
           <div className="skills__left__box">
             <article className="skills__left__detail">
@@ -56,9 +57,9 @@ const Skills = ({ skillRef, skillIsVisible }) => {
               </div>
             </article>
           </div>
-        </div>
+        </Paper>
         
-        <div className={skillIsVisible ? "skills__right animateBox_right" : "skills__right"}> 
+        <Paper elevation={5} className={skillIsVisible ? "skills__right animateBox_right" : "skills__right"}> 
           <h3 className="skills__right__title">Mobile App Development</h3>
           <div className="skills__right__box">
             <article className="skills__right__detail react_native">
@@ -84,7 +85,7 @@ const Skills = ({ skillRef, skillIsVisible }) => {
               </div>
             </article>
           </div>
-        </div>  
+        </Paper>  
       </div>
     </section>
   )

@@ -1,6 +1,11 @@
-.image {
+.imageOne {
     position: relative;
     height: 200vh;
+}
+
+.imageTwo {
+    position: relative;
+    height: 240vh;
 }
 
 .parallaxContainer {
@@ -15,12 +20,21 @@
 }
 
 .parallaxContainer .quote {
-    width: 40%;
-    background-color: rgb(	240, 248, 255, 0.5);
-    padding: 4% 2%;
+    width: 43%;
+    background-color: rgb(29,53,87,0.5);
+    padding: 3% 2%;
     text-align: left;
     border-radius: 20px;
     transform: translateX(40%) translateY(60%);
+}
+
+.parallaxContainer .quote h1{
+    font-size: 30px;
+    color: aliceblue;
+    font-family: 'Abril Fatface';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-left: 20px;
 }
 
 .parallaxContainer .quote h2{
@@ -28,6 +42,14 @@
     text-align: right;
     font-weight: 600;
     margin-right: 5%;
+    font-family: 'Lobster Two';
+    color: aliceblue;
+}
+
+.parallaxContainer .quote .but{
+    font-family: 'Abril Fatface';
+    font-size: 46px;
+    color: #99c24d;
 }
 
 .title-box {
@@ -39,4 +61,5 @@
 .title-box h2 {
     color: #0466c8;
     font-size: 1.8rem;
+    text-transform: uppercase;
 }

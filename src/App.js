@@ -6,7 +6,6 @@ import Header from './components/header/Header';
 import Nav from './components/nav/Nav'
 import Projects from './components/projects/Projects';
 import Skills from './components/skills/Skills';
-import Testimonial from './components/testimoial/Testimonial';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import BgOne from './components/parallax/BgOne';
@@ -17,6 +16,7 @@ import BgTwo from './components/parallax/BgTwo';
 function App() {
   const { ref: skillRef, inView: skillIsVisible } = useInView();
   const { ref: projectRef, inView: projectIsVisible } = useInView();
+  const { ref: introductionRef, inView: introductionIsVisible } = useInView();
   
   // const myRef = useRef();
   // const [visibleElement, setVisibleElement] = useState();
@@ -36,11 +36,10 @@ function App() {
           <Header />
           <Nav />
           <TitleBox />
-          <BgOne />
+          <BgOne introductionRef={introductionRef} introductionIsVisible={introductionIsVisible}/>
           <Skills skillRef={skillRef} skillIsVisible={skillIsVisible} />
           <BgTwo />
           <Projects projectRef={projectRef} projectIsVisible={projectIsVisible}/>
-          <Testimonial />
           <Contact />
           <Footer />
     </div>
