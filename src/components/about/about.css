@@ -87,11 +87,11 @@ article h5 {
 }
 
 .about__introduction {
-    font-family: 'Lobster Two';
+    font-family: 'Caveat Brush';
     color: aliceblue;
-    margin: 0 1.7rem;
+    margin: 0 1.9rem;
     transform: translateX(1rem); 
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .quote-wrapper {
