@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f67c41e7.css",
-    "main.js": "/portfolio/static/js/main.fd20abae.js",
+    "main.css": "/portfolio/static/css/main.f6c1a786.css",
+    "main.js": "/portfolio/static/js/main.c8ddf767.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/j1.JPG": "/portfolio/static/media/j1.77424d3fac174ca347d2.JPG",
-    "static/media/profile.jpg": "/portfolio/static/media/profile.c5cbdf37e40e0e16a92f.jpg",
+    "static/media/handyChef.png": "/portfolio/static/media/handyChef.f4cbf8f990cc00efea20.png",
     "static/media/j2.JPG": "/portfolio/static/media/j2.0a1be873574c7d866278.JPG",
     "static/media/profile.png": "/portfolio/static/media/profile.52db6aa34b37ae92a972.png",
     "static/media/ubuntu-all-400-normal.woff": "/portfolio/static/media/ubuntu-all-400-normal.8629f83ad2c45e75a914.woff",
     "static/media/main-me.png": "/portfolio/static/media/main-me.8dafb6567f4349a1fa2a.png",
+    "static/media/pomodee.png": "/portfolio/static/media/pomodee.493eb1bade8ab55572cb.png",
     "static/media/ubuntu-latin-ext-400-normal.woff2": "/portfolio/static/media/ubuntu-latin-ext-400-normal.9967dbf10fc3cb92edfb.woff2",
     "static/media/ubuntu-latin-400-normal.woff2": "/portfolio/static/media/ubuntu-latin-400-normal.2f02effe392a63dc07a5.woff2",
     "static/media/ubuntu-cyrillic-ext-400-normal.woff2": "/portfolio/static/media/ubuntu-cyrillic-ext-400-normal.80c010be16bde8b7e613.woff2",
     "static/media/ubuntu-cyrillic-400-normal.woff2": "/portfolio/static/media/ubuntu-cyrillic-400-normal.5baf1f37de97e50ab654.woff2",
     "static/media/ubuntu-greek-400-normal.woff2": "/portfolio/static/media/ubuntu-greek-400-normal.038ee74fde7a2c872ee2.woff2",
     "static/media/ubuntu-greek-ext-400-normal.woff2": "/portfolio/static/media/ubuntu-greek-ext-400-normal.7f5049065c02fb5e0628.woff2",
-    "static/media/texture.png": "/portfolio/static/media/texture.acc9a88b9257dc3ce2da.png",
     "index.html": "/portfolio/index.html",
-    "main.f67c41e7.css.map": "/portfolio/static/css/main.f67c41e7.css.map",
-    "main.fd20abae.js.map": "/portfolio/static/js/main.fd20abae.js.map",
+    "main.f6c1a786.css.map": "/portfolio/static/css/main.f6c1a786.css.map",
+    "main.c8ddf767.js.map": "/portfolio/static/js/main.c8ddf767.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f67c41e7.css",
-    "static/js/main.fd20abae.js"
+    "static/css/main.f6c1a786.css",
+    "static/js/main.c8ddf767.js"
   ]
 }
