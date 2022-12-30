@@ -1,5 +1,5 @@
 import { Parallax } from 'react-parallax';
-import j2 from '../../img/j2.JPG';
+import j2 from '../../img/bg/j2.JPG';
 import './parallax.css';
 import { Paper } from '@mui/material';
 

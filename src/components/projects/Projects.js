@@ -5,6 +5,8 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea, CardActions } from '@mui/material';
 import './projects.css';
+import Pomodee from '../../img/project/pomodee.png';
+import HandyChef from '../../img/project/handyChef.png';
 
 
 const Projects = ({ projectRef, projectIsVisible }) => {
@@ -12,14 +14,14 @@ const Projects = ({ projectRef, projectIsVisible }) => {
   const projects = [
     {
       title: "Pomodee",
-      image: "/images/project/pomodee.png",
+      image: Pomodee,
       stack: "React.js | Node.js | Express.js | MongoDB",
       desc: "Pomodee is a fun-and-network-driven timer app based on pomodoro technique which connects with others to collaborate in real-time study & work sessions.",
       url: "https://pomodee.com"
     },
     {
       title: "Handy Chef",
-      image: "/images/project/handyChef.png",
+      image: HandyChef,
       stack: "React Native | Node.js | Express.js | MongoDB",
       desc: "HandyChef is a cross-platform mobile app which connects independent chefs with clients to bring a private restaurant experience to the clients’ homes at an affordable rate.",
       url: "https://www.handychef.ca"
@@ -35,6 +37,7 @@ const Projects = ({ projectRef, projectIsVisible }) => {
           <div className="project__card">
             {projects.map((project) => (
               <a
+                key={project.title}
                 href= {project.url}
                 target="_blank"
                 rel="noreferrer">
@@ -60,8 +63,6 @@ const Projects = ({ projectRef, projectIsVisible }) => {
                     </Typography>
                   </CardContent>
                 </CardActionArea>
-                <CardActions>
-                </CardActions>
                 </Card>
               </a>
             ))}

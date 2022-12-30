@@ -1,9 +1,8 @@
 import React from 'react'
-import aboutImg from '../../img/profile.jpg';
 import {FaUserGraduate, FaAward, FaQuoteLeft, FaQuoteRight} from 'react-icons/fa';
 import {GoProject} from 'react-icons/go';
-import './about.css';
 import { Divider } from '@mui/material';
+import './about.css';
 
 const 
 About  = ({introductionRef, introductionIsVisible}) => {
@@ -11,11 +10,6 @@ About  = ({introductionRef, introductionIsVisible}) => {
     <>
       <section id="about">
         <div className="container about__container">
-
-        {/* <div className="about__me">
-          <img src={aboutImg} alt="me" />
-        </div> */}
-
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
@@ -48,9 +42,8 @@ About  = ({introductionRef, introductionIsVisible}) => {
               <p className={introductionIsVisible ? "about__introduction animateContainer " : "about__introduction"}>
                 Jacob is a front-end developer who works to develop visually inspirational and
                 functional websites and mobile applications . Always tries to focus on well-designed and
-                architected projects based on clean and efficient code .
-                
-            </p>
+                architected projects based on clean and efficient code .                
+              </p>
           </div>
     
             

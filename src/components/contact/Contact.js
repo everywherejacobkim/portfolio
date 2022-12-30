@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { TextField, Button, styled, Avatar, Badge } from '@mui/material';
 import { RiSendPlaneFill } from 'react-icons/ri';
-import contactMe from '../../img/profile.png';
+import contactMe from '../../img/portrait/profile.png';
 import './contact.css';
 
 const StyledBadge = styled(Badge)(({ theme }) => ({
@@ -59,7 +59,7 @@ const Contact = () => {
       <section id="contact">
         <h4>Keep In Touch</h4>
       <h2>Contact Me</h2>
-      <div class='speech-bubble'>
+      <div className='speech-bubble'>
         <p className='bubble-text'>Drop Me A Line !</p>
       </div>
         <div className='form-wrapper'>

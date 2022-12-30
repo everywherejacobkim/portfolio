@@ -1,7 +1,7 @@
 import React from 'react';
 import Resume from './Resume';
 import Socials from './Socials';
-import Me from '../../img/main-me.png';
+import Me from '../../img/portrait/main-me.png';
 import { BsKeyboardFill, BsFillMouse2Fill } from 'react-icons/bs';
 import { ImAirplane } from 'react-icons/im';
 import {FaReact} from 'react-icons/fa';

@@ -1,5 +1,5 @@
 import { Parallax } from 'react-parallax';
-import j1 from '../../img/j1.JPG';
+import j1 from '../../img/bg/j1.JPG';
 import './parallax.css';
 import About from '../about/About';
 

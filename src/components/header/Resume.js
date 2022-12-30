@@ -1,5 +1,5 @@
 import React from 'react';
-import texture from '../../img/texture.png';
+import texture from '../../img/bg/texture.png';
 import {FaFileDownload} from 'react-icons/fa';
 import { motion } from "framer-motion";
 import './header.css';
@@ -7,11 +7,9 @@ import './header.css';
 const Resume = () => {
     return (
         <div className="resumeBtns">
-            <motion.a href={texture} download className='btn' animate={{color: ['white', '#ceefff']}} transition={{ delay: 2, duration: 3}}>
+            <motion.a href={texture} download className='btn' animate={{color: ['#fff', '#ceefff']}} transition={{ delay: 2, duration: 3}}>
             <FaFileDownload />&nbsp; Resume</motion.a>
-
             <a href="#contact" className='btn btn-primary'>Contact Me</a>
-            
         </div>
     )
 }
