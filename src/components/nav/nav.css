@@ -24,3 +24,17 @@ nav a {
 nav a.active {
     color: var(--color-white);
 }
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    nav {
+        position: fixed;
+        rotate: -90deg;
+        padding: 1.1rem;
+        transform: translate(-50%, -50%);
+
+    }
+
+    nav a {
+        rotate: 90deg;
+    }
+}
