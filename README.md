@@ -1,6 +1,6 @@
 # Single Page Portfolio Website by Jacob
 
-This is my personal website project that showcases my skills, experience, and projects in a single-page format. The website features a side navigation that allows visitors to easily move between each section, providing an easy-to-use, clean, and modern interface for quickly learning about my background and skills.
+This is my personal website project that I designed and developed myself, showcasing my skills, experience, and projects in a single-page format. The website features a side navigation that allows visitors to easily move between each section, providing an easy-to-use, clean, and modern interface for quickly learning about my background and skills.
 
 ## Features
 
