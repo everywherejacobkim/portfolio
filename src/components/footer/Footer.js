@@ -12,7 +12,7 @@ const Footer = () => {
         <a href="https://www.instagram.com/everywhere_jacob" target="_blank" rel="noreferrer"><ImInstagram className="social" /></a>
         <div className='copy-wrapper'>
           <AiOutlineCopyrightCircle />
-          <p>2022 Developer Kim All Right Reserved</p>
+          <p>2023 Developer Kim All Right Reserved</p>
         </div>
  
     </div>

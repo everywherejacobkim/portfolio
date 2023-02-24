@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../../img/resume/Resume_Jacob_Namhyung_Kim.pdf';
+import resume from '../../img/resume/Jacob_Namhyung_Kim_Resume.pdf';
 import {FaFileDownload} from 'react-icons/fa';
 import { motion } from "framer-motion";
 import './header.css';

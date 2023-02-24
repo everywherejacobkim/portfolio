@@ -3,7 +3,6 @@ import './nav.css';
 import {AiOutlineHome, AiOutlineUser, AiOutlineProject} from 'react-icons/ai';
 import {FaReact} from 'react-icons/fa';
 import {BiMessageSquareDetail} from 'react-icons/bi';
-import { Paper } from '@mui/material';
 
 const Nav = () => {
 
