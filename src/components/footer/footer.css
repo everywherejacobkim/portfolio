@@ -22,3 +22,10 @@
 .copy-wrapper p {
     margin-left: .2rem;
 }
+
+/*--------------------- Media Queries(Mobile) -------------------------*/
+@media screen and (max-width: 640px) {
+    .footer-wrapper {
+        margin-top: 10%;
+    }
+}

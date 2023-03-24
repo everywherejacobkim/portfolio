@@ -10,28 +10,6 @@
     transform: translateX(40%) translateY(20%)
 }
 
-/*--------------------- Left Side Image ---------------------------*/
-/* .about__me {
-    width: 90%;
-    aspect-ratio: 1/1;
-    border-radius: 2rem;
-    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
-    display: grid;
-    place-items: center;
-    margin-top: 2.7rem;
-}
-
-.about__me img {
-    height: 100%;
-    border-radius: 2rem;
-    overflow: hidden;
-    transform: rotate(-10deg);
-}
-
-.about__me img:hover {
-    transform: rotate(0deg);
-} */
-
 /*--------------------- Right Side Cards ---------------------------*/
 .about__content {
     margin-top: 4rem;
@@ -142,74 +120,13 @@ article h5 {
     }
 }
 
-
-/*--------------------- Media Queries(Tablet) ---------------------------*/
-@media screen and (max-width: 1024px) {
-    .about__container {
-        grid-template-columns: 1fr;
-        gap: 0;
-    }
-
-    .about__me {
-        width: 50%;
-        margin: 2rem auto 4rem;
-    }
-
+/*--------------------- Media Queries(Mobile) -------------------------*/
+@media screen and (max-width: 640px) {
+.about__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+    transform: translateX(-5%) translateY(-20%)
 }
-
-    /*--------------------- Media Queries(Mobile) -------------------------*/
-    @media screen and (max-width: 480px) {
-    .about__container {
-        margin-top: 2rem;
-    }
-
-    .about__me {
-        width: 65%;
-        margin: 0 auto 3rem;
-    }
-
-    .about__cards {
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
-    }
-
-    .about__content {
-        text-align: center;
-        margin-top: 0.5rem; 
-    }
-
-    .about__icon {
-        margin-bottom: -0.5rem; 
-    }
-
-    .about__card {
-        padding: 1rem 0.5rem;
-    }
-
-    .about__card h5 {
-        font-size: 0.95rem;
-        transform: translateY(0.3rem);
-    }
-
-    .about__card p {
-        padding-top: -1.2rem; 
-        font-size: .7rem;
-    }
-
-    .quoteLeft {
-        transform: translateX(-10rem); 
-    }
-
-    .about__introduction {
-        transform: translateX(-0.1rem);
-        font-size: 1rem;
-    }
-
-    .projects {
-        transform: translateX(5.8rem);
-    }
-
-    .projects p{
-        padding-bottom: 1rem;
-    }
 }

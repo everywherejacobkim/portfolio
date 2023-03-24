@@ -44,3 +44,18 @@
         opacity: 1;
     }
 }
+
+/*--------------------- Media Queries(Mobile) -------------------------*/
+@media screen and (max-width: 640px) {
+    .project__card {
+        flex-direction: column;
+        gap: 1.5em;
+    }
+    .projects__container {
+        transform: translateX(0%);
+        margin-bottom: 20%;
+    }
+    .desc-wrapper {
+        width: 94%;
+    }
+}

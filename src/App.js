@@ -18,19 +18,6 @@ function App() {
   const { ref: projectRef, inView: projectIsVisible } = useInView();
   const { ref: introductionRef, inView: introductionIsVisible } = useInView();
   
-  // const myRef = useRef();
-  // const [visibleElement, setVisibleElement] = useState();
-
-  // useEffect(() => {
-  //   const observer = new IntersectionObserver((entries) => {
-  //     const entry = entries[0]
-  //     setVisibleElement(entry.isIntersecting);
-  //   })
-  //   observer.observe(myRef.current)
-  // }, [])
-
-  // console.log(visibleElement);
-
   return (
     <div className="App">
           <Header />

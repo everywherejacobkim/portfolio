@@ -88,3 +88,26 @@
 }
 
 
+/*--------------------- Media Queries(Mobile) -------------------------*/
+@media screen and (max-width: 640px) {
+    #contact .form-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #contact .speech-bubble {
+        transform: rotate(-4deg) rotateY(15deg) translateX(3em) translateY(-1.7em);
+    }
+    #contact form {
+        align-items: center;
+    }
+    #contact #outlined-basic, #outlined-multiline-static {
+        width: 20rem;
+    }
+    #contact .contact-btn {
+        margin-top: 2.5rem;
+        margin-bottom: 2rem;
+        width: 22rem;
+    }
+}
+

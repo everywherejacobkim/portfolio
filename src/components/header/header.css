@@ -141,7 +141,7 @@ header {
 }
 
 /*--------------------- Media Queries(Mobile) ---------------------------*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
     header {
         height: 100vh;
     }
