@@ -1,12 +1,15 @@
 .projects__container {
+    display: flex;
+    gap: 5%;
     margin-top: 7%;
     transform: translateX(4.8%);
+    overflow-x: auto;
+    padding-bottom: 20px;
+    cursor: grab;
 }
 
 .project__card {
-    display: flex;
-    gap: 5%;
-    width: 100%;
+  
 }
 
 .project__card img{
@@ -47,13 +50,14 @@
 
 /*--------------------- Media Queries(Mobile) -------------------------*/
 @media screen and (max-width: 640px) {
-    .project__card {
-        flex-direction: column;
-        gap: 1.5em;
-    }
     .projects__container {
+        flex-direction: column;
         transform: translateX(0%);
         margin-bottom: 20%;
+        gap: 1.5em;
+    }
+    .project__card {
+        
     }
     .desc-wrapper {
         width: 94%;

@@ -1,13 +1,8 @@
 import React from 'react';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
-import { CardActionArea } from '@mui/material';
-import './projects.css';
+import { Card, CardActionArea, CardContent, CardMedia, Typography } from '@mui/material';
 import Pomodee from '../../img/project/pomodee.png';
 import HandyChef from '../../img/project/handyChef.png';
-
+import './projects.css';
 
 const Projects = ({ projectRef, projectIsVisible }) => {
 
@@ -26,6 +21,13 @@ const Projects = ({ projectRef, projectIsVisible }) => {
       desc: "HandyChef is a cross-platform mobile app which connects independent chefs with clients to bring a private restaurant experience to the clients’ homes at an affordable rate.",
       url: "https://www.handychef.ca"
     },
+    {
+      title: "Handy Chef",
+      image: HandyChef,
+      stack: "React Native | Node.js | Express.js | MongoDB",
+      desc: "HandyChef is a cross-platform mobile app which connects independent chefs with clients to bring a private restaurant experience to the clients’ homes at an affordable rate.",
+      url: "https://www.handychef.ca"
+    },
   ]
 
   return (
@@ -34,8 +36,8 @@ const Projects = ({ projectRef, projectIsVisible }) => {
       <h2>Web & Mobile Projects</h2>
       <div className={projectIsVisible ? "animateContainer" : ''}>
         <div className="container projects__container">
-          <div className="project__card">
-            {projects.map((project) => (
+          {projects.map((project) => (
+            <div className="project__card">
               <a
                 key={project.title}
                 href= {project.url}
@@ -65,10 +67,10 @@ const Projects = ({ projectRef, projectIsVisible }) => {
                 </CardActionArea>
                 </Card>
               </a>
+              </div>
             ))}
           </div>
-          </div>
-        </div>
+      </div>
     </section>
   )
 }
