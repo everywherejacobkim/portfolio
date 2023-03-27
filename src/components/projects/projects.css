@@ -6,10 +6,8 @@
     overflow-x: auto;
     padding-bottom: 20px;
     cursor: grab;
-}
-
-.project__card {
-  
+    padding-right: 5%;
+    padding-left: .5%;
 }
 
 .project__card img{
