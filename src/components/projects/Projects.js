@@ -20,7 +20,7 @@ const Projects = ({ projectRef, projectIsVisible }) => {
       image: Pomodee,
       stack: "React | Node.js | Express.js | MongoDB",
       desc: "Pomodee is a fun-and-network-driven timer app based on pomodoro technique which connects with others to collaborate in real-time study & work sessions.",
-      url: "https://pomodee.com"
+      url: "https://63c9adbfe71a072600c4d8af--charming-chebakia-f3ec0c.netlify.app/home"
     },
     {
       title: "My Daily Note",
