@@ -2,7 +2,7 @@
     display: flex;
     gap: 5%;
     margin-top: 7%;
-    transform: translateX(4.8%);
+    transform: translateX(8.8%);
     overflow-x: auto;
     padding-bottom: 20px;
     cursor: grab;
@@ -28,6 +28,10 @@
 
 .desc-wrapper {
     width: 400px;
+}
+
+.swiper-wrapper {
+    margin-left: 10%;
 }
 
 /* animation */

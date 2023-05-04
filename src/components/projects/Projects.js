@@ -1,8 +1,10 @@
 import React from 'react';
 import { Card, CardActionArea, CardContent, CardMedia, Typography } from '@mui/material';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import Pomodee from '../../img/project/pomodee.png';
 import HandyChef from '../../img/project/handyChef.png';
 import MyDailyNote from '../../img/project/myDailyNote.png';
+import 'swiper/css';
 import './projects.css';
 
 const Projects = ({ projectRef, projectIsVisible }) => {
@@ -36,8 +38,13 @@ const Projects = ({ projectRef, projectIsVisible }) => {
       <h4>Explore</h4>
       <h2>Web & Mobile Projects</h2>
       <div className={projectIsVisible ? "animateContainer" : ''}>
+      <Swiper
+        spaceBetween={40}
+        slidesPerView={3}
+      >  
         <div className="container projects__container">
-          {projects.map((project) => (
+            {projects.map((project) => (
+            <SwiperSlide>
             <div className="project__card">
               <a
                 key={project.title}
@@ -68,9 +75,11 @@ const Projects = ({ projectRef, projectIsVisible }) => {
                 </CardActionArea>
                 </Card>
               </a>
-              </div>
+                </div>
+                </SwiperSlide>
             ))}
           </div>
+      </Swiper>
       </div>
     </section>
   )
